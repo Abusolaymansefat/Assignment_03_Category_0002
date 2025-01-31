@@ -121,13 +121,13 @@
 
         <section class="md:container md:mx-auto space-y-6 mt-10">
             <h4 class="font-semibold text-3xl text-green-600">Arrival & Offers</h4>
-            <div class="grid grid-cols-2 gap-10">
-                <div class=" w-180 h-120 bg-green-700 flex p-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class=" bg-green-700 flex p-8 space-y">
                     <div>
-                        <img src="c2-assets/dawat-logo.png" alt="">
+                        <img class="w-full" src="c2-assets/dawat-logo.png" alt="">
                     <div>
-                        <button class="btn ">Cook Exotic Dishes</button>
-                        <h4>UP to 20% OFF</h4>
+                        <button class="btn btn-primary bg-green-300 text-black rounded-lg shadow-md mt-5 p-8 ">Cook Exotic Dishes</button>
+                        <h4 class="font-semibold text-3xl text-white p-5">UP to 20% OFF</h4>
                     </div>
                     </div>
                     <div>
@@ -135,13 +135,13 @@
                     </div>
                 </div>
 
-                <div class="w-160 h-120">
-                    <div class=" bg-sky-700 flex ">
+                <div class="">
+                    <div class=" bg-sky-700 flex p-8 space-y-8 ">
                         <div>
                             <img src="c2-assets/india-gate-logo.png" alt="">
                         <div>
-                            <button>Cook Exotic Dishes</button>
-                            <h4>UP to 20% OFF</h4>
+                            <button class="btn btn-primary bg-sky-200 text-black rounded-lg shadow-md m-5 p-8">World’s No.1 Rice</button>
+                            <h4 class="font-semibold text-3xl text-white p-5">UP to 40% OFF</h4>
                         </div>
                         </div>
                         <div>
@@ -154,8 +154,48 @@
             
         </section>
 
+        <section class="md:container md:mx-auto bg-slate-300 mt-10 -mt-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div class="m-auto">
+                    <img src="c2-assets/vegetable-busket.png" alt="">
+                </div>
+                <div class="space-y-8 m-auto">
+                    <h2 class="font-semibold text-3xl">Get Grocery News!</h2>
+                    <p>Exclusive training tips, ticks, product deals and more.</p>
+                    <input class="px-12 py-4 bg-white rounded-md" type="email" name="" id="" placeholder="Enter email"> <br>
+                    <a class="btn bg-green-500 text-white p-5">Register</a>
+                </div>
+            </div>
+
+        </section>
+
     </main>
-    <footer></footer>
+    <footer class="footer p-10 bg-green-700 text-base-content m-auto">
+        <!-- <nav>
+          <header class="footer-title">Services</header> 
+          <a class="link link-hover">Branding</a> 
+          <a class="link link-hover">Design</a> 
+          <a class="link link-hover">Marketing</a> 
+          <a class="link link-hover">Advertisement</a>
+        </nav>  -->
+        <div>
+            <img src="c2-assets/logo-footer.png" alt="">
+            <p class="text-white">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+        </div>
+        <nav class="text-white">
+          <header class="footer-title">Product</header> 
+          <a class="link link-hover">Services</a> 
+          <a class="link link-hover">Contact us</a> 
+        </nav> 
+        <nav>
+          <header class="text-white justify-end">follw us</header> 
+          <div class="grid grid-flow-col gap-4">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </nav>
+      </footer>
     
 </body>
 </html>
